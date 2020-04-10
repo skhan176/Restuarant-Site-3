@@ -1,0 +1,230 @@
+/********************
+ Common CSS Starts
+********************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #222;
+}
+body {
+    font-family: 'Arimo';
+}
+p{
+    font-family: 'Arimo';
+}
+
+
+/********************
+ Common CSS Ends
+********************/
+
+
+/********************
+ Header Part Starts
+********************/
+
+.header-top {
+    background: beige;
+    color: #222;
+    padding: 10px 0;
+}
+
+.header-top i {
+    margin-left: 20px;
+    border: 1px solid #222;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: .4s all linear;
+    -webkit-transition: .4s all linear;
+    -moz-transition: .4s all linear;
+    -o-transition: .4s all linear;
+    -ms-transition: .4s all linear;
+}
+
+.header-top i:hover {
+    background: #222;
+    color: #fff;
+}
+
+#header {
+    background: #222;
+    padding: 20px 0;
+}
+
+h4 {
+    font-family: 'Fredericka the Great';
+    font-size: 50px;
+    color: #ff7f50;
+}
+
+
+.nav-item {
+    border: 1px solid beige;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-item .active {
+    background: #ff7f50 !important;
+}
+
+.nav-item #pills-home-tab {
+    padding: 7px 25px;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.nav {
+    display: flow-root !important;
+}
+
+/*
+.navbar-toggler-icon{
+    display: none;
+}
+*/
+/********************
+ Header Part Ends
+********************/
+/********************
+ Body Part Starts
+********************/
+
+#banner {
+    background: url(../img/restaurantbg.png)no-repeat center;
+    background-size: cover;
+    width: 100%;
+   padding: 0 0 50px 0;
+}
+
+
+
+
+/********************
+ Body Part Ends
+********************/
+
+
+/********************
+   Footer Starts
+********************/
+
+footer {
+    background: #222;
+    padding: 10px 0;
+}
+
+footer a {
+    font-family: 'Arimo';
+    -webkit-transition: .4s all linear;
+    -moz-transition: .4s all linear;
+    -o-transition: .4s all linear;
+    -ms-transition: .4s all linear;
+}
+
+footer a:hover {
+    font-weight: bold;
+
+}
+
+footer a:hover p {
+    color: coral !important;
+}
+
+footer a:hover span {
+    color: #fff !important;
+}
+
+/********************
+   Footer Ends
+********************/
+
+
+
+.btn-theme {
+    background-color: #F4CF3B;
+    border: 1px solid #CED4dA;
+}
+
+#results {
+    color: #228B22;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Media Query*/
+
+/*
+@media (min-width:100px) and (max-width:768px) {
+    .logo{
+        text-align: center !important;
+    }
+    #navbarSupportedContent{
+        text-align: center !important;
+    }
+    .navbar-toggler-icon{
+    display: block;
+}
+    .none{
+      text-align: center !important;
+    }
+    
+*/
+
+
+/*    END*/
+/*}*/
